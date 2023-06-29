@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    overflow-y: scroll;
+    background-color: #90e0ef;
+}
+
+.container{
+    width: 90%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 5% 5%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-input{
+    padding: 0.3rem;
+    font-size: 2rem;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #00b4d8;
+}
+
+.input #btn{
+    color: white;
+    background-color: #00b4d8;
+    padding: 1vw;
+    width: 20%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+#btn:hover{
+    background-color: #7ab9c5;
+    box-shadow:0 2px 4px rgba(0, 0%, 0%, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.result .word{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.word h3{
+    font-size: 2rem;
+}
+
+.noun{
+    font-size: 1rem;
+    font-style: italic;
+    padding-left: 3vw;
+    
+}
+
+.definition{
+    font-size: 1.5rem;
+    color: gray;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+.example{
+    margin-top: 2vw;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    font-style: italic;
+    border-left: 2px solid #00b4d8;
+}
